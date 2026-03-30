@@ -18,7 +18,7 @@ Jack runs as your always-on digital familiar — handling email, calendar, resea
 
 ```bash
 # 1. Clone this repo
-git clone https://github.com/seanhowen/jack.git && cd jack
+git clone https://github.com/dlhiwig/jack.git && cd jack
 
 # 2. Run the installer
 chmod +x install.sh && ./install.sh
