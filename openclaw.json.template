@@ -1,0 +1,38 @@
+{
+  "agent": {
+    "name": "Jack",
+    "emoji": "🦅",
+    "description": "Personal AI agent for Sean Howen"
+  },
+
+  "model": {
+    "provider": "anthropic",
+    "default": "anthropic/claude-sonnet-4-5",
+    "api_key": "YOUR_ANTHROPIC_API_KEY_HERE"
+  },
+
+  "workspace": {
+    "path": "~/.openclaw/workspace",
+    "memory_dir": "memory"
+  },
+
+  "plugins": {
+    "telegram": {
+      "enabled": false,
+      "bot_token": "YOUR_TELEGRAM_BOT_TOKEN_HERE",
+      "allowed_users": ["YOUR_TELEGRAM_USER_ID_HERE"]
+    }
+  },
+
+  "heartbeat": {
+    "enabled": true,
+    "config": "HEARTBEAT.md"
+  },
+
+  "safety": {
+    "confirm_before_send": true,
+    "confirm_before_delete": true,
+    "confirm_before_spend": true,
+    "max_retries": 3
+  }
+}
